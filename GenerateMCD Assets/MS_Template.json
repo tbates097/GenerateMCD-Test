@@ -1,0 +1,51 @@
+{
+  "MechanicalProducts": [
+    {
+      "Name": "",
+      "DeviceCatalogItemGuid": null,
+      "SecondaryDeviceCatalogItemGuid": null,
+      "DisplayName": "",
+      "SerialNumber": "",
+      "WasAutoDetected": false,
+      "ShouldExclude": false,
+      "ConfiguredOptions": {
+      },
+      "MechanicalAxes": []
+    }
+  ],
+  "ElectricalProducts": [
+    {
+
+      "Name": "iXC4e",
+      "DisplayName": "iXC4e",
+      "SerialNumber": "",
+      "WasAutoDetected": true,
+      "ShouldExclude": false,
+      "ConfiguredOptions": {
+        "Current": "-20",
+        "Bus Voltage": "160V",
+        "Expansion Board": "-EB0",
+        "Multiplier": "-MX1"
+      },
+      "ElectricalAxes": []
+    }
+  ],
+  "InterconnectedAxes": [
+    {
+      "Name": "",
+	  "Index": 0,
+	  "MechanicalAxis" : {
+		  "DisplayName" : ""
+		},
+	  "ElectricalAxis" : {
+			"DisplayName" : "iXC4e"
+		}
+    }
+  ],
+  "Parameters": [],
+  "VersionInformation": {
+    "MachineSetupDataVersion": "2.11.0.3120",
+    "Automation1Version": "2.11.0.3100"
+  },
+  "ControllerType": "DriveBased"
+}
